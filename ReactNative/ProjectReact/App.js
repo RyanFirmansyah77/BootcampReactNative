@@ -8,8 +8,10 @@ import {StyleSheet , Text , View } from 'react-native' ;
 // import Hooks from './lifecycle/hooks';
 // import UseEffect from './lifecycle/UseEffect';
 
-import TugasNavigation from './TugasNavigation';
+// import TugasNavigation from './TugasNavigation';
 // import Note from './Tugas14/App';
+
+import Quiz3 from './Quiz3';
 export default function App(){
   return(
     //<LoginScreen/>
@@ -21,8 +23,9 @@ export default function App(){
     // <Note/>
     // <View>
     // <Text>hao</Text>
-    <TugasNavigation/>
+    // <TugasNavigation/>
     // </View>
+    <Quiz3/>
     
     );
 }
