@@ -120,80 +120,88 @@
 //   );
 // }
 
-import * as React from 'react';
-import { View, Text } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { createStackNavigator } from '@react-navigation/stack';
-import { createDrawerNavigator } from '@react-navigation/drawer';
+// import * as React from 'react';
+// import { View, Text } from 'react-native';
+// import { NavigationContainer } from '@react-navigation/native';
+// import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+// import { createStackNavigator } from '@react-navigation/stack';
+// import { createDrawerNavigator } from '@react-navigation/drawer';
 
-function HomeScreen() {
-  return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Home Screen</Text>
-    </View>
-  );
-}
+// function HomeScreen() {
+//   return (
+//     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+//       <Text>Home Screen</Text>
+//     </View>
+//   );
+// }
 
-function HomeScreen2() {
-  return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Home Screen2</Text>
-    </View>
-  );
-}
-function TabHomeScreen2() {
-  return (
-  	  <Tab.Navigator>
-        <Tab.Screen name="HomeScreen2" component={HomeScreen2} />
-      </Tab.Navigator>
-  );
-}
-function DrawScreen2() {
-  return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Draw Screen2</Text>
-    </View>
-  );
-}
-function DrawHomeScreen2() {
-  return (
-  	  <Draw.Navigator>
-        <Draw.Screen name="DrawScreen2" component={DrawScreen2} />
-      </Draw.Navigator>
-  );
-}
+// function HomeScreen2() {
+//   return (
+//     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+//       <Text>Home Screen2</Text>
+//     </View>
+//   );
+// }
+// function TabHomeScreen2() {
+//   return (
+//   	  <Tab.Navigator>
+//         <Tab.Screen name="HomeScreen2" component={HomeScreen2} />
+//       </Tab.Navigator>
+//   );
+// }
+// function DrawScreen2() {
+//   return (
+//     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+//       <Text>Draw Screen2</Text>
+//     </View>
+//   );
+// }
+// function DrawHomeScreen2() {
+//   return (
+//   	  <Draw.Navigator>
+//         <Draw.Screen name="DrawScreen2" component={DrawScreen2} />
+//       </Draw.Navigator>
+//   );
+// }
 
-const Stack =  createStackNavigator();
-const Tab = createBottomTabNavigator();
-const Draw = createDrawerNavigator();
+// const Stack =  createStackNavigator();
+// const Tab = createBottomTabNavigator();
+// const Draw = createDrawerNavigator();
 
-function App2() {
-  return (
+// function App2() {
+//   return (
     
-      <Stack.Navigator>
-        <Stack.Screen name="bangkai" component={TabHomeScreen2} />
+//       <Stack.Navigator>
+//         <Stack.Screen name="bangkai" component={TabHomeScreen2} />
         
        
-      </Stack.Navigator>
+//       </Stack.Navigator>
     
-  );
-}
+//   );
+// }
 
-function App(){
-	return (
-		<NavigationContainer>
-		 <Draw.Navigator>
-        	<Draw.Screen name="App2" component={App2} />
+// function App(){
+// 	return (
+// 		<NavigationContainer>
+// 		 <Draw.Navigator>
+//         	<Draw.Screen name="App2" component={App2} />
         
        
-     	 </Draw.Navigator>
+//      	 </Draw.Navigator>
 
-		</NavigationContainer>
-	);
+// 		</NavigationContainer>
+// 	);
+// }
+
+
+
+// export default App;
+import React from 'react';
+import {Text , View } from 'react-native';
+function LoginScreen() {
+  return (
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <Text>Login Screen</Text>
+    </View>
+  );
 }
-
-
-
-export default App;
-
